@@ -1,12 +1,9 @@
 import { Fragment } from 'react';
 
-interface IconProps {
-  name: 'js' | 'css' | 'json' | 'html' | 'caretRight' | 'caretDown';
-  className?: string;
-}
+import { IIconProps } from '../constants/interfaces';
 
 // Helper icons
-const Icon = ({ name, ...rest }: IconProps) => {
+const Icon = ({ name, ...rest }: IIconProps) => {
   return (
     <Fragment>
       {name === 'js' && (
