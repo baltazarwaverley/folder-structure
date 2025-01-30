@@ -1,7 +1,6 @@
 import CodeEditor from './components/CodeEditor';
 import { files } from './constants/data';
 import Folder from './components/Folder';
-// import './App.css';
 
 export default function App() {
   return (
